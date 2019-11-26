@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name = "Modulo" table = "MODULO">
+
+        <meta attribute = "class-description">
+            Esta calase cotien los distintos modulos.
+        </meta>
+
+        <id name = "id" type = "int" column = "id">
+            <generator class="native"/>
+        </id>
+
+        <property name = "nombre" column = "nombre" type = "string"/>
+        <property name = "codigo" column = "codigo" type = "string"/>
+
+    </class>
+</hibernate-mapping>
