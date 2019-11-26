@@ -7,8 +7,9 @@
             update
         </property>
         <property name = "hibernate.dialect">
-            org.hibernate.dialect.MySQLDialect
+            org.hibernate.dialect.MySQL5Dialect
         </property>
+
 
         <property name = "hibernate.connection.driver_class">
             com.mysql.jdbc.Driver
@@ -21,17 +22,17 @@
         </property>
 
         <property name = "hibernate.connection.username">
-            ignacio_royo
+            ignacio
         </property>
 
         <property name = "hibernate.connection.password">
             familia
         </property>
 
-        <!-- List of XML mapping files -->
-        <mapping resource = "mapping/Profesor.hbm.xml"/>
-        <mapping resource = "mapping/Alumno.hbm.xml"/>
-        <mapping resource = "mapping/Modulo.hbm.xml"/>
+        <!-- List of XML mapping files-->
 
+        <mapping resource = "Alumno.hbm.xml"/>
+        <mapping resource = "Modulo.hbm.xml"/>
+        <mapping resource = "Profesor.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

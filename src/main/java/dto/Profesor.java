@@ -1,6 +1,8 @@
 package dto;
 
-public class Profesor {
+import java.io.Serializable;
+
+public class Profesor implements Serializable {
     private int id;
     private String nombre;
     private String sexo;
@@ -30,5 +32,13 @@ public class Profesor {
 
     public void setSexo(String sexo) {
         this.sexo = sexo;
+    }
+    @Override
+    public String toString() {
+        return "Profesor{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", sexo='" + sexo + '\'' +
+                '}';
     }
 }

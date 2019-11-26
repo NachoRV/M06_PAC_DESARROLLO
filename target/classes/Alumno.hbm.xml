@@ -4,20 +4,25 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name = "Alumo" table = "ALUMNO">
+    <class name = "dto.Alumno" table = "ALUMNO">
 
         <meta attribute = "class-description">
             Esta calase cotien el detalle de los alumnos
         </meta>
 
         <id name = "id" type = "int" column = "id">
-            <generator class="native"/>
+            <generator class="increment"/>
         </id>
 
         <property name = "nombre" column = "nombre" type = "string"/>
         <property name = "nacionalidad" column = "nacionalidad" type = "string"/>
         <property name = "edad" column = "edad" type = "int"/>
         <property name = "sexo" column = "sexo" type = "string"/>
+        <list name = "modulos" cascade="all">
+            <key column = "alumno_id"/>
+            <list-index column = "idx"/>
+            <one-to-many class="dto.Modulo"/>
+        </list>
 
     </class>
 </hibernate-mapping>

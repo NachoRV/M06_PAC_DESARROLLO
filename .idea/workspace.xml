@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f5ce28-ebe4-487b-9747-6fa64a745f0a" name="Default Changelist" comment="" />
+    <list default="true" id="50f5ce28-ebe4-487b-9747-6fa64a745f0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/serializar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HibernateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HibernateMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/Modulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/Profesor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/Alumno.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Alumno.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/Modulo.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Modulo.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/Profesor.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Profesor.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HibernateMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HibernateMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/Alumno.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/Alumno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/Modulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/Modulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/Profesor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/Profesor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/Alumno.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/Modulo.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/Profesor.hbm.xml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,20 +48,22 @@
   </component>
   <component name="ProjectId" id="1U959GjNpUYj0dHWLFiYZfgcQmU" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapping" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ignacio.barcon\IdeaProjects\hibernate\src\main\resources\mapping" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/mapping" />
       <recent name="C:\Users\ignacio.barcon\IdeaProjects\hibernate\src\main\resources" />
       <recent name="C:\Users\ignacio.barcon\IdeaProjects\hibernate\src" />
       <recent name="C:\Users\ignacio.barcon\IdeaProjects\hibernate\src\main\resources\dto" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ignacio.barcon\IdeaProjects\hibernate\src\main\resources\mapping" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,5 +104,16 @@
       <updated>1574755817752</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

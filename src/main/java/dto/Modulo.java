@@ -1,6 +1,8 @@
 package dto;
 
-public class Modulo {
+import java.io.Serializable;
+
+public class Modulo implements Serializable {
     private int id;
     private String nombre;
     private String codigo;
@@ -30,6 +32,15 @@ public class Modulo {
 
     public void setCodigo(String codigo) {
         this.codigo = codigo;
+    }
+
+    @Override
+    public String toString() {
+        return "Modulo{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", codigo='" + codigo + '\'' +
+                '}';
     }
 }
 

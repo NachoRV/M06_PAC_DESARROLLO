@@ -4,18 +4,18 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name = "Modulo" table = "MODULO">
+    <class name = "dto.Profesor" table = "PROFESOR">
 
         <meta attribute = "class-description">
-            Esta calase cotien los distintos modulos.
+            Esta calase cotien el detalle de los profesores.
         </meta>
 
         <id name = "id" type = "int" column = "id">
-            <generator class="native"/>
+            <generator class="increment"/>
         </id>
 
         <property name = "nombre" column = "nombre" type = "string"/>
-        <property name = "codigo" column = "codigo" type = "string"/>
+        <property name = "sexo" column = "sexo" type = "string"/>
 
     </class>
 </hibernate-mapping>
